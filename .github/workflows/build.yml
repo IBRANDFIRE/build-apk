@@ -28,7 +28,7 @@ jobs:
         run: |
           TARGET_ZIP="${{ github.event.inputs.zip_name }}"
           if [ -z "$TARGET_ZIP" ]; then
-            TARGET_ZIP="Cube.zip"
+            TARGET_ZIP="3d-rubik's-cube.zip"
           fi
 
           if [ ! -f "$TARGET_ZIP" ]; then
